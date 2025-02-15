@@ -3,8 +3,8 @@ function create_kontakte_cpt() {
     register_post_type('kontakte',
         array(
             'labels'      => array(
-                'name'          => __('Kontakte'),
-                'singular_name' => __('Kontakt'),
+                'name' => __('Kontakte', 'kybernethik'),
+                'singular_name' => __('Kontakt', 'kybernethik'),
             ),
             'public'      => true,
             'has_archive' => false,
