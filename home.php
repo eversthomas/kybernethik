@@ -13,7 +13,7 @@
 		<article>
 			<?php // Beitragsbild (falls vorhanden)
 				if (has_post_thumbnail()) { ?>
-					<a href="<?= get_permalink(); ?>">
+					<a href="<?php get_permalink(); ?>">
 					<?php the_post_thumbnail('medium'); ?>
 					</a>
 				<?php } ?>
@@ -28,7 +28,7 @@
 			<p><?php get_the_excerpt(); ?></p>
 
 			<!-- "Weiterlesen" Link -->
-			<p><a href="<?php get_permalink(); ?>"><?=__('Weiterlesen »', 'textdomain'); ?></a></p>
+			<p><a href="<?php get_permalink(); ?>"><?php __('Weiterlesen »', 'textdomain'); ?></a></p>
 
 		</article>
     <?php endwhile; ?>
