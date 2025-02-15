@@ -7,7 +7,7 @@
 ?>
 <?php get_header(); ?>
 
-<main>
+<main id="main-content">
     <article <?php post_class(); ?>>
         <h2><?php the_title(); ?></h2>
         <?php the_content(); ?>
