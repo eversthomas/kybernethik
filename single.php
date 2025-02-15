@@ -7,7 +7,7 @@
 ?>
 <?php get_header(); ?>
 
-<main>
+<main id="main-content">
 	<article <?php post_class(); ?>>
 
 		<!-- Beitragsbild (falls vorhanden) -->
