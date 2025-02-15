@@ -8,7 +8,7 @@
 <?php get_header(); ?>
 
 <main>
-	<article>
+	<article <?php post_class(); ?>>
 
 		<!-- Beitragsbild (falls vorhanden) -->
 		<?php if (has_post_thumbnail()) : ?>
