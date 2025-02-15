@@ -28,8 +28,8 @@
 		<!-- Navigation zu vorherigem und nächstem Beitrag -->
     	<?php
 			the_post_navigation(array(
-        		'prev_text' => __('« %title', 'textdomain'),
-        		'next_text' => __('%title »', 'textdomain'),
+        		'prev_text' => __('« %title', 'kybernethik'),
+        		'next_text' => __('%title »', 'kybernethik'),
     		));
 		?>
         
