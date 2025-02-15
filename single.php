@@ -24,6 +24,10 @@
     	<!-- Excerpt (Kurzbeschreibung) -->
 		<p><?php get_the_excerpt(); ?></p>
     	<?php the_content(); ?>
+	<?php wp_link_pages(array(
+			'before' => '<div class="page-links">' . __('Seiten:', 'kybernethik'),
+			'after'  => '</div>',
+		)); ?>
     
 		<!-- Navigation zu vorherigem und nächstem Beitrag -->
     	<?php
