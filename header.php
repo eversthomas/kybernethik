@@ -15,6 +15,7 @@
 
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
+<a href="#main-content" class="skip-link">Zum Inhalt springen</a>
     <header>
     	<div class="header-inner">
 			<h1><a href="<?php echo esc_url(home_url('/')); ?>"><?php bloginfo('name'); ?></a></h1>
