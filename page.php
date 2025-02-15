@@ -5,17 +5,17 @@
  * @since 1.0.0
  */
 ?>
-<?= get_header(); ?>
+<?php get_header(); ?>
 
 <main>
     <article>
-        <h2><?= the_title(); ?></h2>
-        <?= the_content(); ?>
+        <h2><?php the_title(); ?></h2>
+        <?php the_content(); ?>
     </article>
 </main>
 
 <aside>
-	<?= get_sidebar(); ?>
+	<?php get_sidebar(); ?>
 </aside>
 
-<?= get_footer(); ?>
+<?php get_footer(); ?>
