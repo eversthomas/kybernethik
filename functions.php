@@ -31,6 +31,12 @@ add_theme_support('custom-logo');
 // RSS-Feeds für Beiträge und Kommentare aktivieren
 add_theme_support('automatic-feed-links');
 
+function kybernethik_theme_setup() {
+    add_theme_support('custom-header');
+    add_theme_support('custom-background');
+}
+add_action('after_setup_theme', 'kybernethik_theme_setup');
+
 /* ========================= */
 /* 3. Navigationsmenüs registrieren */
 /* ========================= */
