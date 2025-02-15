@@ -1,7 +1,7 @@
 <?php
-function kybernethik_deregister_jquery() {
+function kybernethik_remove_jquery() {
     if (!is_admin()) {
-        wp_deregister_script('jquery');
+        wp_dequeue_script('jquery');  // Entfernt es nur im Frontend
     }
 }
-add_action('wp_enqueue_scripts', 'kybernethik_deregister_jquery');
+add_action('wp_enqueue_scripts', 'kybernethik_remove_jquery', 11);
