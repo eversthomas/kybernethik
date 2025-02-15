@@ -1,0 +1,27 @@
+header {
+  background: orange;
+}
+
+.header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+main {
+  padding: 1rem;
+}
+
+aside {
+  padding: 1rem;
+}
+
+footer {
+  background: #444444;
+}
+
+.footer-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #ffffff;
+}
