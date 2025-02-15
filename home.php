@@ -28,7 +28,7 @@
 			<p><?php get_the_excerpt(); ?></p>
 
 			<!-- "Weiterlesen" Link -->
-			<p><a href="<?php get_permalink(); ?>"><?php __('Weiterlesen »', 'textdomain'); ?></a></p>
+			<p><a href="<?php get_permalink(); ?>"><?php __('Weiterlesen »', 'kybernethik'); ?></a></p>
 
 		</article>
     <?php endwhile; ?>
@@ -37,8 +37,8 @@
     <?php
 		the_posts_pagination(array(
         'mid_size'  => 2,
-        'prev_text' => __('« Vorherige', 'textdomain'),
-        'next_text' => __('Nächste »', 'textdomain'),
+        'prev_text' => __('« Vorherige', 'kybernethik'),
+        'next_text' => __('Nächste »', 'kybernethik'),
     	));
 	endif; ?>
 
