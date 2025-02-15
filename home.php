@@ -10,7 +10,7 @@
 <main>
 
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-		<article>
+		<article <?php post_class(); ?>>
 			<?php // Beitragsbild (falls vorhanden)
 				if (has_post_thumbnail()) { ?>
 					<a href="<?php get_permalink(); ?>">
